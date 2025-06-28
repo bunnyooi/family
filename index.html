@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Family</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 For Family YouTube Filter 🎉</h1>
+  <p>Data fetched live from YouTube API. Monetization & boost % are estimates.</p>
+
+  <div class="filters">
+    <label>Channel Subscribers: <input type="number" id="subs" /></label>
+    <label>Video Views: <input type="number" id="views" /></label>
+    <label>Upload Time (days): <input type="number" id="days" /></label>
+    <button onclick="findVideos()">Find Videos</button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
